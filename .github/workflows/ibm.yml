@@ -1,13 +1,13 @@
 #IBM Cloud 自动重启
 name: IBM Cloud Auto Restart
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-  schedule:
-    - cron: '0 19 * * *'
+#on:
+#  push:
+#    branches: [ master ]
+#  pull_request:
+#    branches: [ master ]
+#  schedule:
+#    - cron: '0 19 * * *'
 
 jobs:
   ibm-cloud-restart:
